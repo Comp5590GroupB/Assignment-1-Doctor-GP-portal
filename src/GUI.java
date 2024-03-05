@@ -1,6 +1,7 @@
 import javax.swing.*;
 
-//
+//Version 0.1
+//Authors: Rielle
 public class GUI extends JFrame{
 
     public final int width  = 1920;

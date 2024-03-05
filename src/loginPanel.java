@@ -2,6 +2,9 @@ import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
 
+//Version 0.1
+//Authors: Rielle
+
 public class loginPanel extends JPanel implements ActionListener{
     protected JTextField idField;
     protected JPasswordField passwordField;
