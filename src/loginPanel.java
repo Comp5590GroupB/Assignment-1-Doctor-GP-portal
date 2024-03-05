@@ -53,10 +53,18 @@ public class loginPanel extends JPanel implements ActionListener{
     //Takes the inputs from the login fields and checks it against the database
     ActionListener getInput = new ActionListener() {
         public void actionPerformed(ActionEvent evt) {
+            //id gets the id inputted from the first field
             String id = idField.getText();
             System.out.println(id);
+            //password gets the password as inputted from the second field
             String password = passwordField.getText();
             System.out.println(password);
+
+            /*This is where you would implement the database integration, and check
+              against the database using the id and password field to see with the
+              user trying to access the program is authorised
+             */
+
         }
     };
 
